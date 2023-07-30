@@ -7,7 +7,7 @@ import Project from './pages/Project';
 import Contact from './pages/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-// import Cursor from '../src/components/Cursor';
+
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -22,8 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Cursor /> */}
-      <Router>
+         <Router>
         <Preloader load={load} />
         <div className="App" id={load ? 'no-scroll' : 'scroll'}>
           <Routes>

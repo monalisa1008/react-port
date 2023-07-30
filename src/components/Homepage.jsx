@@ -27,11 +27,7 @@ function Home() {
               window.open("https://www.linkedin.com/in/monalisa-choudhary-14a123214/");
             }}
               className='socailmediabtn'><FaLinkedinIn className='icon' /></button>
-            {/* <button onClick={() => {
-              window.open("https://twitter.com/rahulvijay8156");
-            }}
-              className='socailmediabtn'><AiOutlineTwitter className='icon' /></button> */}
-            <button onClick={() => {
+                       <button onClick={() => {
               window.open("https://instagram.com/monalisaa.jpg?igshid=MzNlNGNkZWQ4Mg==");
             }}
               className='socailmediabtn'><AiFillInstagram className='icon' /></button>
