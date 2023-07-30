@@ -12,7 +12,7 @@ function Aboutpage() {
                 <Row className='textbackground'>
                     <Col md={7} >
                         <h3 className='aboutmetext'>About <span>Me</span></h3>
-                        <p className='aboutdetails'> I m a self-taught Front End developer from India. I build websites with a focus on providing the experience for everyone using them and responsiveness. Curious to learn more about developing scalable distribution systems, love problem solving, and care about writing and maintainable code. A responsive design makes your website accessible to all users, regardless of their devices.
+                        <p className='aboutdetails'> I m a final year engineering student and a self-taught Front End developer. Graphic Designing and WordPress is something I enjoy doing. Curious to learn more about developing scalable distribution systems, love problem solving, and care about writing and maintainable code. A responsive design makes your website accessible to all users, regardless of their devices.
                         </p>
                         <div className="skillsContainer">
                             <div className="skill--scroll">

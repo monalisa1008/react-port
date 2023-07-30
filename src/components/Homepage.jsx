@@ -15,24 +15,24 @@ function Home() {
       <Container>
         <Row>
           <Col md={7}>
-            <h2 className='headtext'>Hello <span className='wave'>👋 </span></h2>
-            <h2 className='nametext'>Im Rahul Vijay</h2>
+            <h2 className='headtext'>Hi <span className='wave'>🙂</span></h2>
+            <h2 className='nametext'>I'm Monalisa Choudhary</h2>
             <span></span>
             <Text />
             <button onClick={() => {
-              window.open("https://github.com/rahulvijay81");
+              window.open("https://github.com/monalisa1008");
             }}
               className='socailmediabtn'><AiFillGithub className='icon' /></button>
             <button onClick={() => {
-              window.open("https://www.linkedin.com/in/rahulvijay81/");
+              window.open("https://www.linkedin.com/in/monalisa-choudhary-14a123214/");
             }}
               className='socailmediabtn'><FaLinkedinIn className='icon' /></button>
-            <button onClick={() => {
+            {/* <button onClick={() => {
               window.open("https://twitter.com/rahulvijay8156");
             }}
-              className='socailmediabtn'><AiOutlineTwitter className='icon' /></button>
+              className='socailmediabtn'><AiOutlineTwitter className='icon' /></button> */}
             <button onClick={() => {
-              window.open("https://instagram.com/rahulvijay81");
+              window.open("https://instagram.com/monalisaa.jpg?igshid=MzNlNGNkZWQ4Mg==");
             }}
               className='socailmediabtn'><AiFillInstagram className='icon' /></button>
           </Col>
